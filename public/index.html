@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./static/favicon.ico">
+    <title>CipherSync Documentation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html"><img src="./static/SmallLogo.png" alt="CipherSync Logo"></a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#install">Install</a></li>
+            <li><a href="#usage">Usage</a></li>
+            <li><a href="#contributors">Contributors</a></li>
+            <li><a href="#donate">Donate</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h1>About CipherSync</h1>
+        <p>CipherSync is a powerful encryption/decryption package for Python and JavaScript. With its advanced algorithms and strong security features, CipherSync provides a secure and reliable solution for encrypting and decrypting data.</p>
+        <p><strong>Python/pip is not yet supported. Please wait for the next release for the Python/pip version.</strong></p>
+      </section>
+      <section id="install">
+        <h2>Installation</h2>
+        <pre><code>npm install ciphersync</code></pre>
+      </section>
+      <section id="usage">
+        <h2>Usage</h2>
+        <p>To use CipherSync in your JavaScript project, you first need to require the module:</p>
+        <pre><code>const cipherSync = require('ciphersync');</code></pre>
+        <p>Then, you can use the <code>cipherSync.encrypt()</code> and <code>cipherSync.decrypt()</code> methods to encrypt and decrypt data:</p>
+        <pre><code>// Encrypt a string with a key
+const encryptedString = cipherSync.encrypt('my secret message', 'my secret key');
+
+// Decrypt an encrypted message with a key
+const decryptedString = cipherSync.decrypt(encryptedString, 'my secret key');</code></pre>
+      </section>
+      <section id="contributors">
+        <h2>Contributors</h2>
+        <h3>Supporters</h3>
+        <ul>
+          <li>N/A</li>
+        </ul>
+        <h3>Contributors</h3>
+        <ul>
+          <li>N/A</li>
+        </ul>
+        <h3>Partners</h3>
+        <ul>
+          <li>N/A</li>
+        </ul>
+      </section>
+      <section id="donate">
+        <h2>Donate</h2>
+        <p>If you would like to support CipherSync, you can become a Patreon Member.</p>
+        <p>Become a member here: <a href="https://www.patreon.com/CipherSync">patreon.com/CipherSync</a></p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
