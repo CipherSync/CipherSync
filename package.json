@@ -1,0 +1,15 @@
+{
+    "name": "ciphersync",
+    "version": "1.0.0",
+    "description": "A very advanced encryption/decryption package for Python and JavaScript.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "CipherSync",
+    "license": "ISC",
+    "funding": {
+      "type": "patreon",
+      "url": "https://www.patreon.com/CipherSync"
+    }
+  }
